@@ -1,30 +1,52 @@
-# vue-project
+## 前言
 
-> A Vue.js project
+设计师通过临摹大师的作品，通过不断的比较，细致入微的观察，才能感受到大师的所思所想。
 
-## Build Setup
+> good artists copy, great artist steal.
 
-``` bash
-# install dependencies
+能工摹形，巧匠窃意。
+
+目标：模仿微信朋友圈页面，从UI, 交互，到功能。
+
+## 技术栈
+
+vue2 + vuex + vue-router + webpack + es6 + axios + easy-mock + scss + flex
+
+## 项目运行
+
+注意：由于涉及大量的 es6 等新属性，node 需要 6.0 以上版本
+
+``` javascript
+git clone https://github.com/renyaxiang/Moment.git
+cd Moment
 npm install
-
-# serve with hot reload at localhost:8080
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## GitHub Pages
+
+修改webpack配置文件的output改成根目录下的docs目录中，运行npm run build，编译后的产线资源都在docs目录下了，修改index.html中link,script中路径前的/去掉，最后把GitHub Pages的source选项切换为master brach/docs folder。
+
+## 目标功能
+
+- [x] 动态列表
+- [x] 点赞
+- [x] 评论
+
+## 效果演示
+
+[查看demo请戳这里](https://renyaxiang.github.io/Moment/#/moment)（请用chrome手机模式预览）
+
+移动端扫描下方二维码
+
+![image](screenshots/qrcode.png)
+
+部分截图
+
+![image](screenshots/record.gif)
+
+
+
+
+
+
