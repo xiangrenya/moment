@@ -35,7 +35,7 @@ npm run dev
 
 ## 效果演示
 
-[查看demo请戳这里](https://renyaxiang.github.io/Moment/#/moment)（请用chrome手机模式预览）
+[查看demo请戳这里](https://xiangrenya.github.io/moment)（请用chrome手机模式预览）
 
 移动端扫描下方二维码
 
